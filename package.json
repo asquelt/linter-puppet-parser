@@ -1,0 +1,23 @@
+{
+  "name": "linter-puppet-parser",
+  "activationCommands": {},
+  "main": "./lib/init",
+  "version": "0.0.1",
+  "description": "Linter plugin for Puppet, using puppet parser validate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asquelt/linter-puppet-parser"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "puppetParserLinter"
+      }
+    }
+  }
+}
