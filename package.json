@@ -2,7 +2,7 @@
   "name": "linter-puppet-parser",
   "activationCommands": {},
   "main": "./lib/init",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Linter plugin for Puppet, using puppet parser validate",
   "repository": {
     "type": "git",
